@@ -1,0 +1,56 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    background-color: azure;
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+}
+.insider{
+    background-image: url('../images/bicycle.png');
+}
+.heading{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+#account{
+    position: absolute;
+    right: 0%;
+}
+#head-1{
+    font-size: 20px;
+}
+#orderNo{
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.insider{
+    padding: 30px 60px 40px;
+
+}
+.pricing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+.price{
+    position: absolute;
+    right: 0%;
+}
+.product{
+    display: flex;
+}
+#product-1,#product-2{
+    font-size: 17px;
+}
+#total{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
