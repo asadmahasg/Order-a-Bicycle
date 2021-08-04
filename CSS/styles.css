@@ -1,14 +1,20 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(5, 126, 90);
 }
 .container{
     background-color: azure;
     width: 500px;
     height: 400px;
     border-radius: 5px;
+    margin: auto;
+    margin-top: 150px;
 }
 .insider{
-    background-image: url('../images/bicycle.png');
+    background: url('../images/bicycle.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 150px;
 }
 .heading{
     display: flex;
@@ -23,14 +29,16 @@ body{
     font-size: 20px;
 }
 #orderNo{
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
     color: grey;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .insider{
-    padding: 30px 60px 40px;
+    padding: 20px 45px 0px;
+    width: 410px;
+    height: 380px;
 
 }
 .pricing{
@@ -48,9 +56,10 @@ body{
 }
 #product-1,#product-2{
     font-size: 17px;
+    font-weight: 600;
 }
 #total{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
